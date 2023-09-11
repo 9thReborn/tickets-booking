@@ -1,0 +1,184 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-body">
+    <div>
+      <div class="text-grey-700 p-3">
+        <!-- nav content wrapper -->
+        <nav
+          class="flex justify-between items-center font-body text-yellow-600 px-5"
+        >
+          <div>
+            <h1 class="text-red-600 text-4xl">
+              <a
+                href="/"
+                class="lg:text-red-600 ml-10 hover:bg-red-600 hover:text-white rounded-full p-2 transition-all duration-300 ease-in-out transform hover:scale-105"
+                >Zannoza</a
+              >
+            </h1>
+          </div>
+
+          <ul class="text-lg flex gap-9">
+            <li class="mr-4">
+              <span class="list">Fun</span>
+            </li>
+            <li class="mr-8">
+              <span class="list">Games</span>
+            </li>
+            <li class="mr-8">
+              <span class="list">Experience</span>
+            </li>
+          </ul>
+
+          <div class="flex justify-end mr-10">
+            <a
+              href="#"
+              class=" mr-2 rounded-full p-2 bg-primary text-white text-xl transition-all duration-300 ease-in-out transform hover:scale-105"
+            >
+              Book Tickets
+            </a>
+          </div>
+        </nav>
+      </div>
+      <!-- end of nav content wrapper -->
+
+      <main class="px-16 py-6 bg-gray-100">
+        <!-- Section One for Zannoza-->
+
+        <div
+          class="h-96 flex justify-around p-4 items-center bg-secondary-100 rounded shadow-lg"
+        >
+          <div class="h-full w-2/5 items-center p-5">
+            <h2
+              class="text-primary font-body text-9xl mt-8 transform scale-125 hover:scale-150 transition-transform duration-300 ease-in-out"
+            >
+              Tickets
+            </h2>
+            <h3 class="text-2xl font-body ml-4">For City Boys And Girls</h3>
+            <div class="flex ml-5 space-x-2">
+              <div class="bg-red-400 h-8 w-10 animate-pulse"></div>
+              <div class="bg-yellow-400 h-10 w-10 animate-pulse"></div>
+              <div class="bg-purple-400 h-12 w-10 animate-pulse"></div>
+            </div>
+          </div>
+          <div class="relative sm:bg-red-700 lg:bg-primary p-4 h-64 w-1/5 mr-10 rounded-2xl shadow-md transform animate-spin-slow">
+  <span class="absolute top-0 left-0 m-2 uppercase text-white"># my ticket</span>
+  <span class="absolute bottom-0 right-0 m-2 uppercase text-white"># my ticket</span>
+</div>
+        </div>
+
+        <!-- Section Two -->
+        <div class="grid grid-cols-3 items-center p-5">
+          <img
+            src="./img/vr headset.png"
+            alt="headset"
+            class="h-2/5 col-span-1 animate-float"
+          />
+          <img
+            src="./img/dck 2.png"
+            alt="big-img"
+            class="h-5/5 col-span-1 animate-float"
+          />
+          <img
+            src="./img/plus.png"
+            alt="play"
+            class="ml-24 w-60 col-span-1 animate-float"
+          />
+        </div>
+
+        <div>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">
+            Popular Games
+          </h4>
+
+          <div class="mt-8 grid lg:grid-cols-3 gap-6">
+            <!-- card content -->
+            <div
+              class="card "
+            >
+              <img
+                src="/public/img/Rounded rectangle (1).png"
+                alt="curry"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="text-gray-700 font-semibold text-2xl"
+                  >Scrabble</span
+                >
+                <span class="text-gray-500 text-sm block">War of Words</span>
+              </div>
+              <div
+                class="badge bg-primary text-white py-1 px-3 rounded-full absolute "
+              >
+                <!-- <span class="text-xs">25 mins</span> -->
+              </div>
+            </div>
+            <div class="card ">
+              <img
+                src="/public/img/Rounded rectangle.png"
+                alt="noodles"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="text-gray-700 font-bold">Soccer</span>
+                <span class="text-gray-500 text-sm block">Battle of Pads</span>
+              </div>
+              <div class="badge">
+                <!-- <span>25 mins</span> -->
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="/public/img/Rounded rectangle (3).png"
+                alt="stew"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="text-gray-700 font-bold">Darts</span>
+                <span class="text-gray-500 text-sm block"
+                  >Battle of precision</span
+                >
+              </div>
+              <div class="badge">
+                <!-- <span>25 mins</span> -->
+              </div>
+            </div>
+            <!-- end card content -->
+          </div>
+
+          <div class="mt-8">
+            <!-- cards go here-->
+          </div>
+        </div>
+
+        <div>
+          <div class="h-96 px-16 py-16 bg-secondary-100 rounded">
+            <form action="" class="font-sans">
+              <label for="tickets" class="block"
+                >Book your tickets below for :</label
+              >
+              <input
+                type="text"
+                name="users"
+                id="tickets"
+                class="mt-4 custom-input-width h-8 rounded"
+              />
+              <input
+                type="submit"
+                class="block font-bold border bg-secondary-200 rounded-full p-2 mt-4"
+              />
+            </form>
+          </div>
+        </div>
+
+        <footer class="font-serif m-auto">
+          Copyright Zannoza Entertainment
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
